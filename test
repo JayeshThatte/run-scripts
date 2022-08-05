@@ -1,2 +1,8 @@
 import os
-os.system("pip list")
+import time
+os.system("pip install pyautogui")
+
+time.sleep(15)
+import pyautogui
+
+pyautogui.screenshot("test.png")
