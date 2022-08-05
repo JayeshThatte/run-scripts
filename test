@@ -1,8 +1,3 @@
-import os
-import time
-os.system("pip install pyautogui")
+import random
 
-time.sleep(15)
-import pyautogui
-
-pyautogui.screenshot("test.png")
+x = random.randint(1,4)
